@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+}
+
+.col {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+.card-title {
+    border-style: solid;
+    border: 1px;
+    border-color: lightblue;
+    justify-content: center;
+
+}
+
+.card-img-top {
+    display: flex;
+    object-position: center;
+    
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.product-availability {
+    display: flex;
+    width: 100%;
+    background-color: darkgray;
+    color: yellow;
+}
